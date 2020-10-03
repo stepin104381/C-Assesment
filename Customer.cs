@@ -45,7 +45,7 @@ namespace SampleConApp
                 if (cus.Name.Contains(name))
                     temp.Add(cus);
             }
-            //return the List converted to array of Books.
+         
             return temp.ToArray();
         }
 
@@ -169,10 +169,7 @@ namespace SampleConApp
 
     class Customer
     {
-        public int CustomerID
-        {
-            get; set;
-        }
+        public int CustomerID {get; set; }
         public string Name { get; set; }
        
         public string Address { get; set; }
